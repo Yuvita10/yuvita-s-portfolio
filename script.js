@@ -1,92 +1,3 @@
-// var main = document.querySelector(".page")
-// var cursor = document.querySelector(".cursor")
-
-// main.addEventListener("mousemove",function(val){
-//   gsap.to(cursor,{
-//     x:val.x,
-//     y:val.y,
-//     duration:1,
-   
-//   })
-// })
-
-// // var navLinks = document.getElementById("navLinks");
-
-// //       function showMenu() {
-// //         navLinks.classList.add("show");
-// //       }
-
-// //       function hideMenu() 
-// //       {
-// //         navLinks.classList.remove("show");
-// //       }
-
-// //       // Add this to close the menu when a link is clicked
-// //       var links = document.querySelectorAll("#navLinks a");
-// //       links.forEach(function (link) {
-// //         link.addEventListener("click", function () {
-// //           navLinks.classList.remove("show");
-// //         });
-// //       });
-      
-// function page1Animation(){
-
-// var tl = gsap.timeline()
-
-// tl.from("nav img, nav .nav-links ul li a",{
-//   y:-40,
-//   duration:0.7,
-//   delay:0.5,
-//   opacity:0,
-//   stagger:0.15
-// })
-// tl.from(".part1 h3",{
-//   x:-500,
-//   opacity:0,
-//   duration:0.5
-// })
-// tl.from(".part1 h2, .part1 h1",{
-//   x:-200,
-//   opacity:0,
-//   duration:0.4
-// })
-// tl.from(".part1 .button",{
-  
-//   opacity:0,
-//   duration:0.4
-// })
-// tl.from(".part2 img",{
-//    opacity:0,
-//    duration:0.4,
-//    x:200
-// },"-=0.7")
-// }
-// page1Animation()
-
-// ScrollReveal({
-//   reset: false,
-//   distance: '60px',
-//   duration: 2000,
-//   delay: 200
-// });
-
-// ScrollReveal().reveal('.about h2, .skills h1, .project h1, #contact h1',{origin: 'top'});
-// ScrollReveal().reveal('.about p, .skills .skill-name, .project .project1, #contact div, #contact button, footer',{origin: 'bottom'});
-
-// const navLinks = document.getElementById("navLinks");
-
-// function showMenu() {
-//   navLinks.classList.add("show");
-// }
-
-// function hideMenu() {
-//   navLinks.classList.remove("show");
-// }
-
-// document.querySelectorAll("#navLinks a").forEach(link => {
-//   link.addEventListener("click", hideMenu);
-// });
-
 // Custom Cursor Movement
 const main = document.querySelector(".page");
 const cursor = document.querySelector(".cursor");
@@ -105,7 +16,7 @@ main.addEventListener("mousemove", function (val) {
 function page1Animation() {
   const tl = gsap.timeline();
 
-  tl.from("nav img, nav .nav-links ul li a", {
+  tl.from("nav img, nav .nav-links ul li a, .fa", {
     y: -40,
     duration: 0.6,
     delay: 0.2,
