@@ -16,7 +16,7 @@ main.addEventListener("mousemove", function (val) {
 function page1Animation() {
   const tl = gsap.timeline();
 
-  tl.from("nav img, nav .nav-links ul li a, .fa", {
+  tl.from("nav img, nav .nav-links ul li a,  nav .fa-bars, nav .fa-times", {
     y: -40,
     duration: 0.6,
     delay: 0.2,
