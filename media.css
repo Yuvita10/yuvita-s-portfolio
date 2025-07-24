@@ -55,7 +55,7 @@
   }
 
   .main .part2 img {
-    width: 90%;
+    width: 95%;
     margin: 20px auto;
     display: block;
   }
@@ -89,7 +89,7 @@
     
      .nav-links {
          position: fixed; 
-         background:  rgb(156, 124, 231);;
+         background:  rgb(156, 124, 231);
          height: 100vh;
          width: 200px;
          top: 0;
@@ -136,9 +136,6 @@
      }
 
   /* Skill icons */
-  /* .skill-name .item1 {
-    flex-direction: column;
-  } */
   .skill-name .item1 div {
     width: 80%;
     padding: 20px;
