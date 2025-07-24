@@ -63,7 +63,7 @@ ScrollReveal().reveal(
   { origin: "top" }
 );
 ScrollReveal().reveal(
-  ".about p, .skill-name, .project1, #contact div, #contact button",
+  ".about p, .skill-name, .project1, #contact div",
   { origin: "bottom" }
 );
 
