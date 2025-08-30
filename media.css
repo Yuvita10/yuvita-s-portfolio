@@ -1,6 +1,4 @@
-/* 1. Mobile First: Base styles already set */
 
-/* 2. Tablets & small desktops */
 @media (min-width: 768px) and (max-width: 1024px) {
   .main {
     flex-direction: column;
@@ -40,9 +38,9 @@
   }
 }
 
-/* 3. Mobile phones */
+
 @media (max-width: 767px) {
-  /* Adjust main section */
+  
   .main {
     flex-direction: column;
     padding: 20px;
